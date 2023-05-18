@@ -1,0 +1,324 @@
+.background-1 {
+    width: 100%;
+    height: auto;
+    background: url(Assets/homebg.jpg)50% 50% no-repeat;
+    background-size: cover;
+}
+
+.background-2 {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.m1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.m2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.m3 {
+    padding: 250px 10px;
+}
+
+.m4 {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+}
+
+.img-1 {
+    max-width: 300px;
+    height: 200px;
+    background: url(Assets/stabmenubg.png)50% 50% no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.img-1:hover {
+    background: url(Assets/stabmenubghv.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.m5 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.m5:hover {
+    color: white;
+}
+
+.text-1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.text-1:hover {
+    color: white;
+}
+
+.background-3 {
+    width: 100%;
+    height: auto;
+}
+
+.m6 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.m7 {
+    max-width: 700px;
+}
+
+.m8 {
+    color: black;
+    text-decoration: none;
+}
+
+.m9 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.m10 {
+    font-size: 20px;
+}
+
+.m11 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.icon-1 {
+    width: 130px;
+    height: 130px;
+    background: url(Assets/info_iconbg.png)50% 50% no-repeat;
+    background-size: contain;
+}
+
+.icon-1:hover {
+    width: 130px;
+    height: 130px;
+    background: url(Assets/iconbg1h.png)50% 50% no-repeat;
+    background-size: contain;
+}
+
+.m12 {
+    font-size: 40px;
+    padding-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.m12:hover {
+    color: white;
+}
+
+.m13 {
+    font-size: 30px;
+}
+
+.m14 {
+    font-size: 20px;
+}
+
+.m15 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.img-9 {
+    margin-top: 20px;
+}
+
+.background-3 {
+    width: 100%;
+    height: auto;
+    background: url(Assets/testbg.jpg)50% 50% no-repeat;
+    background-size: cover;
+}
+
+.background-4 {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.m16 {
+    padding: 100px 10px;
+}
+
+.m17 {
+    font-size: 20px;
+    color: white;
+}
+
+.text-3 {
+    max-width: 500px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.text-4 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.text-5 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.img-10 {
+    width: 100px;
+    height: 100px;
+    background: url(Assets/info_iconbg.png)50% 50% no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+}
+
+.m18 {
+    font-size: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.text-6 {
+    font-size: 30px;
+}
+
+.text-7 {
+    font-size: 20px;
+}
+
+.text-8 {
+    font-size: 20px;
+}
+
+.m19 {
+    width: 250px;
+    height: 50px;
+}
+
+
+@media screen and (max-width:768px) {
+    .img-1 {
+        max-width: 300px;
+        height: 200px;
+        background: url(Assets/stabmenubg.png)50% 50% no-repeat;
+        background-size: cover;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .img-1:hover {
+        background: url(Assets/stabmenubghv.png) 50% 50% no-repeat;
+        background-size: cover;
+    }
+
+
+    .m1 {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    .m2 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .m5 {
+        font-size: 40px;
+    }
+
+    .m7 {
+        text-align: justify;
+    }
+
+    .m9 {
+        font-size: 30px;
+        margin: auto;
+    }
+
+    .m10 {
+        text-align: justify;
+    }
+
+    .text-6 {
+        font-size: 20px;
+    }
+
+    .m14 {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .icon-1 {
+        width: 90px;
+        height: 90px;
+        background: url(Assets/info_iconbg.png)50% 50% no-repeat;
+        background-size: contain;
+    }
+
+    .icon-1:hover {
+        width: 90px;
+        height: 90px;
+        background: url(Assets/iconbg1h.png)50% 50% no-repeat;
+        background-size: contain;
+    }
+
+    .m12 {
+        font-size: 30px;
+        padding-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .m12:hover {
+        color: white;
+    }
+
+    .img-10 {
+        width: 70px;
+        height: 70px;
+        background: url(Assets/info_iconbg.png)50% 50% no-repeat;
+        background-size: contain;
+        margin-top: 10px;
+    }
+
+    .m18 {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .text-7 {
+        font-size: 0.938rem;
+        max-width: 150px;
+    }
+}
